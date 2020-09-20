@@ -1,5 +1,7 @@
 require 'pry'
 
 def oxford_comma(array)
-  ["fiddleheads","okra","kohlrabi"].join
+  if array.length > 3
+    binding.pry
+  end
 end
